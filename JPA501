@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class aaa{
+    public static void main(String[] args){
+        while(true){
+            System.out.print("Input n (0<=n<=16):");
+            Scanner s = new Scanner(System.in);
+            int a = s.nextInt();
+            int b = 1;
+            if(a==999){
+                break;
+            }else if(a==0){
+                System.out.println(a+"的階乘 = "+1);
+            }else{
+                for(int i=a;i>0;i--){
+                    b*=i;
+                }
+                System.out.println(a+"的階乘 = "+b);
+            }
+        }
+    }
+}
