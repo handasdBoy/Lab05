@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class aaa{
+public class JPA501{
     public static void main(String[] args){
         while(true){
             System.out.print("Input n (0<=n<=16):");
