@@ -8,6 +8,8 @@ public class JPA501{
             int b = 1;
             if(a==999){
                 break;
+            }else if(a>16 || a<0){
+                break;
             }else if(a==0){
                 System.out.println(a+"的階乘 = "+1);
             }else{
